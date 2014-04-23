@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:background="@drawable/grey_button"
+    android:gravity="center"
+    >
+        
+    <TextView
+     	android:id="@+id/nomAgent"
+     	android:layout_width="fill_parent"
+     	android:layout_height="wrap_content"
+     	android:minHeight="50dip"
+     	android:layout_weight="1"
+     	android:textSize="15dip"
+     	android:textColor="#efefef"
+     	android:textStyle="normal"
+     	android:gravity="center"
+ 		/>
+
+    <Button
+        android:id="@+id/status"
+        android:layout_width="28dip"
+        android:layout_height="13dip"
+        android:layout_weight="1"
+        android:background="#21d61d"
+        />
+	        
+</LinearLayout>

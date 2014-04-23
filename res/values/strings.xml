@@ -1,0 +1,117 @@
+<resources>    
+    
+    <!-- Par defaut -->
+    <string name="app_name">Agetac</string>
+    <string name="menu_settings">Settings</string>
+
+    <!-- Maquette Layout Global -->
+    <string name="title_activity_main">AGETAC</string>
+    <string name="sitac">SITAC</string>
+    <string name="moyens">Moyens</string>
+    <string name="messages">Messages</string>
+
+    <!-- Maquette liste de moyens -->
+    <string name="demander_moyen">Demande de moyens</string>
+    <string name="visu_moyen_mvc">Visualisation moyens</string>
+    <string name="secteur_inc">Secteur INC</string>
+    <string name="secteur_sap">Secteur SAP</string>
+    <string name="secteur_alim">Secteur ALIM</string>
+    <string name="secteur_fdf">Secteur FDF</string>
+    <string name="secteur_lif">Secteur LIF</string>
+    <string name="secteur_chime">Secteur CHIM</string>
+    <string name="secteur_rad">Secteur RAD</string>
+    <string name="secteur_sd">Secteur SD</string>
+    <string name="secteur_sr">Secteur SR</string>
+    <string name ="visu_groupe_intervention">Groupe d\'intervention</string>
+    <string name ="demande">GH_Demande</string>
+    <string name ="arrive">GH_Arrive</string>
+    <string name ="retour">GH_Retour</string>
+    <string name ="depart">GH_Depart</string>
+    
+    <!-- Maquette Demande de moyens -->
+    <string name="title_activity_demande_moyen_mvc">AGETAC - Demande de moyens</string>
+    <string name="label_liste_deroulante_secteur">Choisissez un secteur : </string>
+    <string name="label_grille_moyens">Choisissez un moyen (Véhicule ou sapeur-pompier)</string>
+    <string name="label_liste_deroulante_autre_moyens">Chercher un autre moyen : </string>
+    <string name="plus">+</string>
+    <string name="moins">-</string>
+    <string name="un">1</string>
+    <string name="ajouterALaListe">Ajouter à la liste </string>
+    <string name="sendListe">Envoyer cette liste</string>
+    <string name="change_quantite">Quantité :  </string>
+    <string name="label_liste_moyens_demandes">Liste des moyens demandés : </string>
+    <string name="annuler">Annuler</string>
+	<string name="supprimer">Supprimer</string>
+
+    <!-- Maquette Message ambiance -->
+    <string name="title_activity_message_ambiance_mvc">Envoi du message d\'ambiance</string>
+    <string name="hint_jesuis">Je suis&#8230;</string>
+    <string name="hint_jevois">Je vois&#8230;</string>
+    <string name="hint_jeprevois">Je prévois&#8230;</string>
+    <string name="hint_jefais">Je fais&#8230;</string>
+    <string name="hint_jedemande">Autre demandes&#8230;</string>
+    <string name="msg_amb_jesuis">Je suis </string>
+    <string name="msg_amb_jevois">Je vois </string>
+    <string name="msg_amb_jeprevois">Je prévois </string>
+    <string name="msg_amb_jefais">Je fais </string>
+    <string name="msg_amb_jedemande">Je demande </string>
+    <string name="msg_amb_desc">Saisissez votre message d\'ambiance</string>
+    <string name="msg_amb_demandemoyen">Faire sa demande de moyens&#8230;</string>
+    <string name="msg_amb_envoyer">Envoyer</string>
+    <string name="msg_amb_retour">Retour à la liste de messages&#8230;</string>
+   	<string name="msg_amb_btn_demande_moyen">Faire sa liste de moyens demandés&#8230;</string>
+
+    
+    <string name="visu_moyens_mvc">Liste des moyens</string> 
+    
+    <!-- Maquette Message quelconque -->
+    <string name="title_activity_message_quelconque_mvc">AGETAC - Message Quelconque</string>
+    <string name="hint_textMsgQQue">Ecrivez votre message ici&#8230;</string>
+    <string name="msg_qqe_envoyer">Envoyer</string>
+    <string name="msg_qqe_joindre">Joindre un fichier</string>
+    <string name="msg_qqe_retour">Retour à la liste de messages&#8230;</string>
+    
+    <!-- Maquette Interface de connexion -->
+    <string name="title_activity_interface_de_connexion">AGETAC - Connexion</string>
+    <string name="ident_connexion">Identifiant</string>
+    <string name="mdp_connexion">Mot de passe</string>
+    <string name="btn_connexion">Connexion</string>
+    <string name="label_connexion">Connexion à l\'application AGETAC</string>
+    <string name="welcome">Bienvenue sur AGETAC</string>
+    
+    <!-- Maquette Edition de SOIEC SAOIECL -->
+    <string name="label_edition_SOIEC_SAOIECL">Description de </string>
+    <string name="label_boutton_bar_couleurs">Palette de couleurs</string>
+    <string name="button_couleur_rouge">Rouge</string>
+    <string name="button_couleur_bleu">Bleu</string>
+    <string name="button_couleur_vert">Vert</string>
+    <string name="button_couleur_violet">Violet</string>
+    <string name="button_couleur_blanc">Blanc</string>
+    <string name="button_couleur_autre">Autre</string>
+    <string name="separator">|</string>
+    <string name="appSoiecName">Définir son SOIEC/SAOIECL</string>
+    <string name="envoyer_soiec">Envoyer</string>
+    <string name="editer_soiec">Editer le texte</string>
+    
+    <!-- Maquette SITAC -->
+    <string name="btn_barre_outils_sitac_show">Afficher la barre d\'outils</string>
+    <string name="btn_barre_outils_sitac_hide">Masquer la barre d\'outils</string>
+    <string name="btn_carte_sitac">Retourner sur la carte</string>
+    <string name="btn_editer_soiec_saoiecl">Éditer son SOIEC/SAOIECL</string>
+    <string name="boutonBarreDoutilsSitacOpen">Ouvrir la barre d\'outils</string>
+    <string name="boutonBarreDoutilsSitacClose">Fermer la barre d\'outils</string>
+    <string name="btn_affichage_calques">Liste des éléments ajoutés</string>
+    <string name="btn_fermeture_calques">Fermer</string>
+    
+    <!-- Maquette Liste messages -->
+    <string name="msg_defaut">Rédiger un message&#8230;</string>
+    <string name="msg_ambiance_redaction">Rédiger le message d\'ambiance&#8230;</string>
+    <string name="msg_redigerUnMessage"><u>Rédaction de messages</u></string>
+    <string name="listeMessage"><u>Liste des messages</u></string>
+    <string name="titre">titre :</string>
+    <string name="title_activity_detail_message_mvc">Détails du message</string>
+    <string name="close_message_box">Fermer ce message</string>
+   	<string name="ContactAgent"><u>Contacter un agent</u></string>
+   	<string name="DestinataireLabel">Destinataire(s) : </string>
+    
+</resources>

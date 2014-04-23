@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#171f21"
+    android:orientation="vertical" >
+    
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#2A393E"
+    android:layout_marginBottom="5dip"
+    android:orientation="horizontal" 
+    ><!-- #171f21 -->
+
+    <TextView
+	     android:id="@+id/date"
+	     android:layout_width="fill_parent"
+	     android:layout_height="fill_parent"
+	     android:minHeight="60dip"
+	     android:layout_marginLeft="30dp"
+	     android:gravity="center"
+	     android:textColor="#efefef"
+	     android:layout_weight="1"
+	     android:textSize="15sp" />
+    
+    <TextView
+	     android:id="@+id/auteur"
+	    android:layout_width="fill_parent"
+	     android:layout_height="fill_parent"
+	     android:minHeight="60dip"
+	     android:layout_marginLeft="30dp"
+	     android:gravity="center"
+	     android:textColor="#efefef"
+	     android:layout_weight="1"
+	     android:textSize="15sp" />
+    
+    <TextView
+	     android:id="@+id/type"
+	     android:layout_width="fill_parent"
+	     android:layout_height="fill_parent"
+	     android:minHeight="60dip"
+	     android:layout_marginLeft="30dp"
+	     android:gravity="center"
+	     android:textColor="#efefef"
+	     android:layout_weight="1"
+	     android:textSize="15sp" />
+
+    <TextView
+	     android:id="@+id/isLu"
+	     android:layout_width="fill_parent"
+	     android:layout_height="fill_parent"
+	     android:minHeight="60dip"
+	     android:layout_marginLeft="30dp"
+	     android:gravity="center"
+	     android:textColor="#efefef"
+	     android:layout_weight="1"
+	     android:textSize="15sp" />
+    
+    </LinearLayout>
+
+</LinearLayout>

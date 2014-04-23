@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <fragment
+        android:id="@+id/frag_menu"
+        android:layout_width="match_parent"
+        android:layout_height="68dip"
+        class="com.agetac.fragment.age_fragmenu" />
+    
+    <fragment
+        android:id="@+id/frag_sitac"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        class="com.agetac.activity.VueSitac" />
+    
+    <fragment
+        android:id="@+id/frag_moyens"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        class="com.agetac.fragment.VueVisualisationMoyens" />
+    
+    <fragment
+        android:id="@+id/frag_messages"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        class="com.agetac.fragment.VueListeDesMessages" />
+    
+    <fragment
+        android:id="@+id/frag_ask_moyen"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        class="com.agetac.fragment.VueDemandeDeMoyens" />
+
+</LinearLayout>

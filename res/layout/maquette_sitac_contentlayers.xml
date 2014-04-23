@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    >
+    
+    <RelativeLayout
+	    android:id="@+id/menuLayers"
+	    android:layout_width="400dip"
+	    android:layout_height="match_parent"
+	    android:background="#363636"
+	    android:orientation="vertical"
+	    android:padding="20dip" >
+
+    			<Button
+    			    android:id="@+id/fermer"
+    			    android:layout_width="fill_parent"
+    			    android:layout_height="wrap_content"
+    			    android:layout_alignParentBottom="true"
+    			    android:layout_centerHorizontal="true"
+    			    android:layout_margin="10dip"
+    			    android:background="@drawable/red_button"
+    			    android:text="@string/btn_fermeture_calques" />
+
+    			<ListView
+    			    android:id="@+id/listDessins"
+    			    android:layout_width="fill_parent"
+    			    android:layout_height="fill_parent"
+    			    android:layout_above="@+id/fermer"
+    			    android:layout_alignParentTop="true"
+    			    android:layout_centerHorizontal="true"
+    			    android:minHeight="50dip" >
+
+    			</ListView>
+
+	</RelativeLayout>
+
+</LinearLayout>

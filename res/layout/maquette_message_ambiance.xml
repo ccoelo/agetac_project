@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:paddingBottom="7dip"
+    android:paddingLeft="7dip"
+    android:paddingRight="7dip"
+    android:layout_weight="1"
+    android:background="#161e21"
+    android:orientation="horizontal"
+    android:baselineAligned="false" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="3"
+        android:orientation="vertical" >
+
+        <ListView
+            android:id="@+id/list_MessageAmbiance"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="9" >
+        </ListView>
+
+        <Button
+            android:id="@+id/envoyerMessageAmbiance"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="7dip"
+            android:layout_marginTop="7dip"
+            android:layout_weight="1"
+            android:background="@drawable/red_button"
+            android:padding="7dip"
+            android:text="@string/msg_amb_envoyer" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:orientation="vertical" >
+
+        <EditText
+            android:id="@+id/editTextMsgAmb"
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="9"
+            android:background="@drawable/edittext_edition_soiec_bg"
+            android:gravity="top"
+            android:inputType="text|textMultiLine"
+            android:lineSpacingExtra="10dip"
+            android:padding="20dip"
+            android:textColor="#efefef"
+            android:textSize="20sp" >
+        </EditText>
+
+        <Button
+            android:id="@+id/btnDemandeMoyen"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="7dip"
+            android:layout_marginTop="7dip"
+            android:layout_weight="1"
+            android:background="@drawable/grey_button"
+            android:padding="7dip"
+            android:text="@string/msg_amb_btn_demande_moyen"
+            android:textColor="#efefef" />
+    </LinearLayout>
+
+</LinearLayout>

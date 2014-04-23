@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#171f21"
+    android:orientation="horizontal" >
+
+    <LinearLayout
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	    android:background="#171f21"
+	    android:orientation="vertical" 
+	    android:layout_weight="1"
+	    android:layout_marginRight="5dip"
+	    android:layout_marginLeft="10dip"
+	    android:layout_marginTop="10sp"
+	    >
+	    
+    	<TextView
+		     android:id="@+id/lsite"
+		     android:layout_width="match_parent"
+		     android:layout_height="33dp"
+		     android:layout_marginBottom="6.5sp"
+		     android:gravity="left|center_horizontal"
+		     android:text="@string/listeMessage"
+		     android:textColor="#efefef"
+		     android:textSize="20sp" 
+		     />
+    
+    	<ListView
+	        android:id="@+id/listeMess"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content" 
+	        android:textColor="#efefef"
+	        android:textSize="16sp"
+	        >
+    	</ListView>
+    	
+    </LinearLayout>
+    
+    <LinearLayout
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	    android:background="#171f21"
+	    android:orientation="vertical" 
+	    android:layout_weight="1.7"
+	    android:layout_marginRight="10dip"
+	    android:layout_marginLeft="5dip"
+	    android:layout_marginTop="10sp"
+	    >
+	    
+    	<TextView
+		     android:id="@+id/TitreListeBtnEditionMessages"
+		     android:layout_width="match_parent"
+		     android:layout_height="33dp"
+		     android:layout_marginBottom="5sp"
+		     android:gravity="left|center_horizontal"
+		     android:text="@string/msg_redigerUnMessage"
+		     android:textColor="#efefef"
+		     android:textSize="20sp"
+		     />
+    	
+    	<Button 
+    	     android:id="@+id/btn1"
+		     android:layout_width="match_parent"
+		     android:layout_height="wrap_content"
+		     android:minHeight="67dip"
+		     android:background="@drawable/grey_button"
+		     android:text="@string/msg_defaut"
+		     android:textColor="#efefef"
+		     android:textSize="18sp"
+		     android:layout_marginBottom="10sp"
+    	    />
+    	
+    	<Button 
+    	     android:id="@+id/btn2"
+		     android:layout_width="match_parent"
+		     android:layout_height="wrap_content"
+		     android:minHeight="67dip"
+		     android:background="@drawable/grey_button"
+		     android:text="@string/msg_ambiance_redaction"
+		     android:textColor="#efefef"
+		     android:textSize="18sp"
+		     android:layout_marginBottom="10sp"
+    	    />
+    	
+    	<TextView
+		     android:id="@+id/ContactAgentTextView"
+		     android:layout_width="match_parent"
+		     android:layout_height="33dp"
+		     android:layout_marginBottom="5sp"
+		     android:gravity="left|center_horizontal"
+		     android:text="@string/ContactAgent"
+		     android:textColor="#efefef"
+		     android:textSize="20sp"
+		     />
+
+    	<ListView
+    	    android:id="@+id/listViewAgentToContact"
+    	    android:layout_width="match_parent"
+    	    android:layout_height="wrap_content" 
+    	    android:layout_marginBottom="7dip"
+    	    >
+    	</ListView>
+    	
+    </LinearLayout>
+    
+</LinearLayout>
